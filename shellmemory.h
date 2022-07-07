@@ -1,0 +1,12 @@
+void mem_init();
+char *mem_get_value(char *var_in);
+void fs_set_value(char *var, char *value);
+void vs_set_value(char *var, char *value);
+int mem_exists(char *var_in);
+char *mem_get_var_at_index(int i);
+char *mem_get_value_at_index(int i);
+void reset_VS();
+void clear_mem();
+int isPageAvailable();
+void memSetValue(char* str, int index);
+int seememory(int i) ;
